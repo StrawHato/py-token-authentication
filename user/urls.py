@@ -6,6 +6,7 @@ from user.views import (
     ManageUserView
 )
 
+
 urlpatterns = [
     path("register/", CreateUserView.as_view(), name="create"),
     path("login/", LoginUserView.as_view(), name="login"),
